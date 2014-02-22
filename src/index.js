@@ -1,10 +1,12 @@
+"use strict";
+
 /**
  * **********************************************************
  * ******************* Library required *********************
  * **********************************************************
  */
 
-path = require('path'),
+var path = require('path'),
     fs = require('fs'),
     _ = require('lodash');
 
@@ -14,7 +16,7 @@ path = require('path'),
  * **********************************************************
  */
 
-module.exports = ayoRefry = {
+module.exports = {
 
     /**
      * This function allow to remove folder recursively
